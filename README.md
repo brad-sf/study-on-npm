@@ -1,4 +1,4 @@
-# NPM Training Notes
+# npm training note
 
 ## Help
 - `npm -h` // command usage
@@ -30,10 +30,14 @@ See also [https://docs.npmjs.com/misc/config#shorthands-and-other-cli-niceties](
 ## Listing
 - `ls node_modules/`
 - `npm list` // tree
-- `npm list --depth 1`
-- `npm list --depth 0` // 
-- `npm list --global true --depth 0` // global
-- `npm list --long true` // info
-- `npm list --depth 0 --json true` // json
 - `npm ls` === `npm list` // || *npm la*
+- `npm ls --depth 0`
+- `npm ls --global` === `npm ls -g`
+- `npm ls --long true` // info
+- `npm ls --json true` // json
+
+# Uninstall/Remove
+- `npm uninstall <package>`
+- `npm r` === `npm uninstall` // || *npm un* || *npm rm*
+- ...` -g`
 
