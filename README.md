@@ -62,3 +62,6 @@ See also [https://docs.npmjs.com/misc/config#shorthands-and-other-cli-niceties](
 - `npm update -g` // global
 - `npm update -g live-server`
 
+## Installing via URL
+- `npm i https://github.com/expressjs/express`
+
