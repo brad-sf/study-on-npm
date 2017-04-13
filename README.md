@@ -34,6 +34,7 @@ See also [https://docs.npmjs.com/misc/config#shorthands-and-other-cli-niceties](
 - `npm ls --depth 0`
 - `npm ls --global` === `npm ls -g`
 - `npm ls --long true` // info
+- `npm publish`
 - `npm ls --json true` // json
 
 ## Uninstall/Remove
@@ -62,8 +63,35 @@ See also [https://docs.npmjs.com/misc/config#shorthands-and-other-cli-niceties](
 - `npm update -g` // global
 - `npm update -g live-server`
 
-## Installing via URL
+## Installing other ways
 - `npm i https://github.com/expressjs/express`
 - `npm i https://bradleyflood.com/mypackage`
 - `npm i gist:d38056f6602dcb536f413bb950ff3505`
+- `npm i /User/bradleyflood/dev/my-package`
+
+## Registry
+- `http://registry.npmjs.org/karma` // package.json
+- `npm.im/lodash` === `https://www.npmjs.com/package/lodash`
+- `npm search <keyword(s)>`
+
+## Prune
+- `npm prune` // remove extraneous packages (not in package.json)
+- `npm prune --production` // removes non-production dependencies
+
+## Repo
+- `npm repo lodash` // open package repo url
+- `npm info lodash` // package info
+
+## Updating NPM
+- `npm i npm@latest -g` // requires admin priv
+
+## Scripts (package.json)
+- `npm test`
+- `npm start`
+- `npm run <taskName>` ie `npm run build`
+
+## Publishing
+- `npm adduser` // adds auth token to ~/.npmrc
+- `npm publish`
+- `npm version patch` `||minor|major`
 
