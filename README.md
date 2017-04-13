@@ -64,4 +64,6 @@ See also [https://docs.npmjs.com/misc/config#shorthands-and-other-cli-niceties](
 
 ## Installing via URL
 - `npm i https://github.com/expressjs/express`
+- `npm i https://bradleyflood.com/mypackage`
+- `npm i gist:d38056f6602dcb536f413bb950ff3505`
 
